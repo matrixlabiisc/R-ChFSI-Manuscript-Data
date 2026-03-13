@@ -1,0 +1,10 @@
+# Build artifacts
+ToyExample/build/
+
+# Raw DFT-FE output logs (large)
+AuroraData/real/bccmo/
+AuroraData/real/diamond/
+AuroraData/real/silicon/
+AuroraData/complex/bccmo/
+AuroraData/complex/diamond/
+AuroraData/complex/silicon/
