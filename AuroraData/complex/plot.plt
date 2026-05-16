@@ -17,12 +17,12 @@ set grid back ls 12
 set tics textcolor rgb "black"
 set key columns 3 maxrows 6 right top offset 0,-0.6
 set term pdfcairo enhanced font "Serif,22" size 16,4.5
-set ylabel "max_{/Times-Italic j} {/Times-Italic r_j^{(i)}}" offset 1.9
+set ylabel "max_{/Times-Italic j} {/Times-Italic r_j^{(i)}}" offset 0.8
 set logscale y 10
 set yrange [1e-9:5000]
 set xrange [0:99]
 set ytics (1,0.01,0.0001,1e-6,1e-8) 
-set xlabel "Iteration Number {/Times-Italic (i)}" offset 0,0.8
+set xlabel "Iteration Number {/Times-Italic (i)}" offset 0,0.6
 set key samplen 1.5
 
 unset mytics
