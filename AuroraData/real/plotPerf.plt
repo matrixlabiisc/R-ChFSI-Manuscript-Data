@@ -17,7 +17,7 @@ set grid back ls 12
 set tics textcolor rgb "black"
 set key right top offset 0,.0
 set term pdfcairo enhanced font "Serif,22" size 16,4.5
-set ylabel 'Speedup w.r.t. ChFSI FP64' offset 1.9
+set ylabel 'Speedup w.r.t. R-ChFSI FP64' offset 1.9
 set yrange [0:3.6]
 set xrange [-0.5:2.7]
 

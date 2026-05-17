@@ -42,7 +42,7 @@ plot keyentry "{p=20}",keyentry "{p=40}",keyentry "{p=60}",keyentry "{p=80}",key
 
 
 
-set ylabel "max_{/Times-Italic j} {/Times-Italic r_j^{(i)}}" offset 1.9
+set ylabel "max_{/Times-Italic j} {/Times-Italic r_j^{(i)}}" offset 0.8
 set format y "10^{%T}"
 set title "m=25672375\n n=7000" offset -16,-3.2
 plot keyentry "{p=20}",keyentry "{p=40}",keyentry "{p=60}",keyentry "{p=80}",keyentry "{p=100}",keyentry "{p=120}", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsi.dat" u 1:2 w l  title "FP64", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsi.dat" u 1:3 w l  title "FP64","/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsi.dat" u 1:4 w l  title "FP64", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsi.dat" u 1:5 w l  title "FP64", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsi.dat" u 1:6 w l  title "FP64","/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsi.dat" u 1:7 w l  title "FP64", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsiFP32.dat" u 1:($2*eps) w l lc 1 dt 4 title "FP32", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsiFP32.dat" u 1:($3*eps) w l lc 2 dt 4 title "FP32","/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsiFP32.dat" u 1:($4*eps) w l lc 3 dt 4 title "FP32", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsiFP32.dat" u 1:($5*eps) w l lc 4 dt 4 title "FP32", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsiFP32.dat" u 1:($6*eps) w l lc 5 dt 4 title "FP32", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsiFP32.dat" u 1:($7*eps) w l lc 6 dt 4 title "FP32"
@@ -54,7 +54,7 @@ set title "m=25672375\n n=7000" offset -16,-3.2
 plot keyentry "{p=20}",keyentry "{p=40}",keyentry "{p=60}",keyentry "{p=80}",keyentry "{p=100}",keyentry "{p=120}", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsi.dat" u 1:2 w l  title "FP64", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsi.dat" u 1:3 w l  title "FP64","/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsi.dat" u 1:4 w l  title "FP64", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsi.dat" u 1:5 w l  title "FP64", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsi.dat" u 1:6 w l  title "FP64","/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsi.dat" u 1:7 w l  title "FP64", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsiTF32_b.dat" u 1:($2*eps) w l lc 1 dt 4 title "TF32B", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsiTF32_b.dat" u 1:($3*eps) w l lc 2 dt 4 title "TF32B","/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsiTF32_b.dat" u 1:($4*eps) w l lc 3 dt 4 title "TF32B", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsiTF32_b.dat" u 1:($5*eps) w l lc 4 dt 4 title "TF32B", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsiTF32_b.dat" u 1:($6*eps) w l lc 5 dt 4 title "TF32B", "/home/nikhilk/rchfsiAuroraData/complex/silicon/12x12x12/rchfsiTF32_b.dat" u 1:($7*eps) w l lc 6 dt 4 title "TF32B"
 
 
-set ylabel "max_{/Times-Italic j} {/Times-Italic r_j^{(i)}}" offset 1.9
+set ylabel "max_{/Times-Italic j} {/Times-Italic r_j^{(i)}}" offset 0.8
 set format y "10^{%T}"
 set format x
 set xlabel "Iteration Number {/Times-Italic (i)}" offset 0,0.6
